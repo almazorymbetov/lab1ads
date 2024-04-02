@@ -11,6 +11,9 @@ public class problem1 {
         int res = min(n, array);
         System.out.println("Minimum is " + res);
         sc.close();
+        /*
+        basic input of length of array (n) and elements, calling function min
+         */
     }
     public static int min(int n, int[] array){
         int res = array[0];
@@ -21,6 +24,9 @@ public class problem1 {
                 res = array[i];
             }
         }
+        /*
+        initial minimum is the first elemnt of array. then it compares with each next element
+         */
         return res;
     }
 }
