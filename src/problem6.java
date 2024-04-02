@@ -9,7 +9,7 @@ public class problem6{
     }
     public static double power(double a,int n){
         if(n==0){
-            return 1; //every number raised to power of 0 is equalst to 1
+            return 1; //every number raised to power of 0 is equals to 1
         }else if(n<0){
             return 1/power(a,-n); //if n is negative, then 1 must be divided to number a raised to power of n
         }else{
