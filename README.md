@@ -1,4 +1,5 @@
 Laboratory work 1
+
 I decided to create 10 classes for each problem <br>
 problem no.1: there is a loop that makes a comparison between the initial minimum element and the next elements <br>
 problem no.2: I also used a loop to sum all elements and divide it by the length(number of elements) of array <br>
