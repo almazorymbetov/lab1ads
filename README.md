@@ -1,5 +1,5 @@
 Laboratory work 1
-I decided to create 10 classes for each problem
+I decided to create 10 classes for each problem <br>
 problem no.1: there is loop that make a comparison between initial minimum element and next elements
 problem no.2: I used also loop to sum all elements, and divide it by the length(number of elements) of array
 problem no.3: there is a loop until i squared is less than or equal to n, but when the remainder will be equal to 0, then it returns false or composite
