@@ -1,3 +1,11 @@
+/*
+this code finds factorial of given number
+in contrast to previous ones, there is recursive method
+time complexity is O(n), and when n is increase, then it changes the time complexity
+it also have recursive calls where n decreases till 1
+@param the Number that need be calculated as factorial
+@return the factorial of given number
+ */
 import java.util.Scanner;
 public class problem4{
     public static void main(String[] args){

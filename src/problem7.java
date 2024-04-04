@@ -1,3 +1,10 @@
+/*
+this code prints reversed array
+this code uses recursive method
+time complexity is O(n), and when n is increase, then it changes
+@param the given array
+@return the reversed array
+*/
 import java.util.Scanner;
 public class problem7{
     public static void main(String[] args){

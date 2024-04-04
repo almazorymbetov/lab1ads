@@ -1,3 +1,10 @@
+/*
+this code calculates the binomial of two numbers n and k
+this code uses recursive method
+time complexity is O(2^n), because there is multiple times when we called recurisve functions
+@param the given numbers k and n
+@return binomial coefficient
+*/
 import java.util.Scanner;
 public class problem9{
     public static void main(String[] args){

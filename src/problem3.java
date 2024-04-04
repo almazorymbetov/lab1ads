@@ -1,3 +1,12 @@
+/*
+this method determines when the given number is prime or composite
+it uses loop, iterates till when i squared will be less than
+time complexity is O(sqrt(n)) where n is number of elements of array of numbers
+also same as previous problems when n is increase, then the code will run slower
+@param the number which need to be determined as prime or composite
+@return true/false, or prime or composite
+ */
+
 import java.util.Scanner;
 public class problem3{
     public static void main(String[] args){

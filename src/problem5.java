@@ -1,3 +1,11 @@
+/*
+this code finds the fibonacci number
+this code uses recursive method
+time complexity is O(2 power n), and when n is increase, then it changes and increases exponentially
+because it has multiple uses of recursive method
+@param the Number that need be calculated as fibonacci number
+@return fibonacci number
+*/
 import java.util.Scanner;
 public class problem5{
     public static void main(String[] args){

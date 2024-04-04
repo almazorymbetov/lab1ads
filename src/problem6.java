@@ -1,3 +1,10 @@
+/*
+this code calculates the power of number
+this code uses recursive method
+time complexity is O(2 power n), and when n is increase, then it changes and increases exponentially also
+@param the numbers a and n
+@return the power of number
+*/
 import java.util.Scanner;
 public class problem6{
     public static void main(String[] args){

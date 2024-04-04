@@ -1,3 +1,10 @@
+/*
+this code determines when the array has digits or not
+this code uses recursive method
+time complexity is O(n), and when n is increase, then the time for executing will increase
+@param the given string
+@return yes or no
+*/
 import java.util.Scanner;
 public class problem8{
     public static void main(String[] args){

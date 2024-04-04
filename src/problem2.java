@@ -1,3 +1,12 @@
+/*
+this method calculates the average number by summing them and dividing to the length of array
+it uses loop, iterates once in the average method
+time complexity is O(n) where n is number of elements of array of numbers
+also same as previous when n is inscrease, then the time for calculating will increase
+@param represents the numbers of array
+@return the average of array
+ */
+
 import java.util.Scanner;
 public class problem2{
     public static void main(String[] args){

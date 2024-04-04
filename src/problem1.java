@@ -1,3 +1,11 @@
+/*
+this method determines the minimum element among the given array of numbers
+it uses loop and iterates once in the min method
+time complexity is O(n) where n is number of elements of array
+but when n is inscrease, then the time for calculating will increase
+@param represents the numbers of array
+@return is the minimum
+ */
 import java.util.Scanner;
 public class problem1 {
     public static void main(String[] args){

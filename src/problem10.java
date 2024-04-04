@@ -1,3 +1,10 @@
+/*
+this code calculates the gcd of two numbers
+this code uses recursive method
+time complexity is O(a,b), and when a or b is increase, then it changes and increases
+@param the numbers a and b
+@return the gcd of a and b
+*/
 import java.util.Scanner;
 public class problem10{
     public static void main(String[] args){
@@ -8,7 +15,7 @@ public class problem10{
         sc.close();
     }
     public static int gcd(int a,int b){
-        if(b==0){ //when b doesnt exist, then gcd will be a itself
+        if(b==0){ //when b doesnt exist, then gcd will be a itself  
             return a;
         }else{
             return gcd(b,a%b);//euclidian algorithm from discrete math
