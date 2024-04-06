@@ -2,6 +2,8 @@
 
 I decided to create 10 classes for each problem <br>
 
+Very short explanation, you can see other in the code <br>
+
 <b>problem no.1:</b> there is a loop that makes a comparison between the initial minimum element and the next elements <br>
 
 <b>problem no.2:</b> I also used a loop to sum all elements and divide it by the length(number of elements) of array <br>
