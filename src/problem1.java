@@ -16,7 +16,10 @@ public class problem1 {
         {
             array[i] = sc.nextInt();
         }
+        double start = System.nanoTime();
         int res = min(n, array);
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         System.out.println("Minimum is " + res);
         sc.close();
         /*

@@ -11,7 +11,10 @@ public class problem5{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        double start = System.nanoTime();
         int res = fibo(n);
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         System.out.println(res);
         /*
         calling function fibo to calculating fibonacci number

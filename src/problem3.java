@@ -23,6 +23,7 @@ public class problem3{
          */
     }
     public static boolean prime(int n){
+        double start = System.nanoTime();
         if(n==1 || n<0){
             return false;
         }
@@ -34,6 +35,8 @@ public class problem3{
                 return false;
             }
         }
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         /*
         in this loop, i will increase until when its square is less than n, and if when n divided by i
         and the remainder is 0, then it is composite

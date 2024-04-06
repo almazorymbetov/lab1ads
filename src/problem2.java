@@ -16,7 +16,10 @@ public class problem2{
         for(int i = 0;i < n;i++){
             array[i] = sc.nextInt();
         }
+        double start = System.nanoTime();
         double res = average(n, array);
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         System.out.println("Average  is " + res);
         sc.close();
         /*

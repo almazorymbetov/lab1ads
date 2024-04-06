@@ -10,7 +10,10 @@ public class problem8{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
+        double start = System.nanoTime();
         System.out.println(digit(s) ? "YES" : "NO");
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         //by this you can check by using booleans when string contain numbers or not
         sc.close();
     }

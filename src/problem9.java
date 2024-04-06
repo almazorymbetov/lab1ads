@@ -11,7 +11,10 @@ public class problem9{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
+        double start = System.nanoTime();
         System.out.println(binom(n,k)); //called recursive function
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         sc.close();
     }
     public static int binom(int n, int k){

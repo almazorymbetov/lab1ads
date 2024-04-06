@@ -11,7 +11,10 @@ public class problem6{
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         int n = sc.nextInt();
+        double start = System.nanoTime();
         double res = power(a,n); //called recursive function
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         System.out.println(res);
     }
     public static double power(double a,int n){

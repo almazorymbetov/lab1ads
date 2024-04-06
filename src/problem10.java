@@ -11,7 +11,10 @@ public class problem10{
         Scanner sc= new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        double start = System.nanoTime();
         System.out.println(gcd(a,b)); //call function gcd
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         sc.close();
     }
     public static int gcd(int a,int b){

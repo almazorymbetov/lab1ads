@@ -14,7 +14,10 @@ public class problem7{
         for(int i = 0;i < n;i++){
             array[i] = sc.nextInt();
         } //input elements
+        double start = System.nanoTime();
         revers(array,0,n-1); //called recursive function
+        double end = System.nanoTime();
+        System.out.println("Time spent: " + (end-start)/1000000000);
         for(int i = 0;i < n;i++){
             System.out.println(array[i]); //print revesred array
         }
